@@ -1,0 +1,15 @@
+{
+  "name": "workspaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "yarn install --frozen-lockfile"
+  },
+  "workspaces": [
+    "subpackage"
+  ],
+  "author": "",
+  "license": "ISC"
+}
